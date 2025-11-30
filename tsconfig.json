@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@effect/language-service"
+      }
+    ],
+
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+
+    "jsx": "react-jsx",
+    "skipLibCheck": true
+  },
+  "include": ["node_modules/vite/client.d.ts", "**/*"]
+}
